@@ -1,0 +1,163 @@
+.chart {
+    /* width: 500px; */
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 20px;
+  }
+  
+  .chart .rate-box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    /* height: 30px;
+    padding: 20px 0;
+    padding: 10px; */
+  }
+  .chart .rate-box > * {
+    height: 100%;
+    display: flex;
+    align-items: start;
+    font-weight: 500;
+    color: #26150E;
+  }
+  .rate-box .value {
+    display: flex;
+    align-items: center;
+  }
+  .rate-box .value:hover {
+    color: #26150E;
+  }
+  .chart .value {
+    /* font-size: 30px; */
+    /* cursor: pointer; */
+    color: white;
+    display: none;
+  }
+  .rate-box .progress-bar {
+    border-width: 1px;
+    position: relative;
+    background-color: #cfd8dc91;
+  
+    height: 10px;
+    border-radius: 100px;
+    width: 350px;
+  }
+  .rate-box .progress-bar .progress {
+    background-color: #26150E;
+    height: 100%;
+    border-radius: 100px;
+    transition: 300ms ease-in-out;
+  }
+  
+  .global {
+    height: 100%;
+    /* width: 150px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .one .fas {
+    color: #cfd8dc;
+  }
+  
+  .two {
+    background: linear-gradient(to right, #26150E 0%, transparent 0%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-in-out all;
+  }
+  
+  .global > span {
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .rating-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 10%;
+  }
+  .rating-icons span {
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5px;
+  }
+  
+  .total-reviews {
+    font-size: 16px !important;
+  }
+  /* .container {
+    display: flex;
+    border-radius: 15px;
+    gap: 40px;
+    height: 200px;
+  }   */
+
+  p.rewiew-text {
+    font-size: 24px;
+    margin-right: 60px;
+}
+p.rewiew-text1 {
+    font-size: 24px;
+    margin-right: 100px;
+}
+p.rewiew-text2 {
+    font-size: 24px;
+    margin-right: 70px;
+}
+p.rewiew-text3 {
+    font-size: 24px;
+    /* margin-right: 20px; */
+}
+p.rewiew-text4 {
+    font-size: 24px;
+    margin-right: 110px;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:991px){
+
+
+
+    .rate-box p {
+        font-size: 16px;
+    }
+    
+    .rate-box .progress-bar {
+        width: 170px;
+    }
+    p.rewiew-text {
+        
+        margin-right: 40px;
+    }
+    p.rewiew-text1 {
+        
+        margin-right: 65px;
+    }
+    p.rewiew-text2 {
+        
+        margin-right: 45px;
+    }
+   
+    p.rewiew-text4 {
+        
+        margin-right: 75px;
+    }
+    
+   
+
+
+}
